@@ -102,7 +102,7 @@ const Dashboard = () => {
           animate={{ opacity: 1, y: 0 }}
         >
           <h1 className="text-3xl font-heading font-bold text-surface-900 mb-2">
-            Welcome back! 👋
+            Welcome back Chidanand! 👋
           </h1>
           <p className="text-surface-600">
             Ready to continue your language learning journey?
