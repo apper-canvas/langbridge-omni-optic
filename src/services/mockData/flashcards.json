@@ -1,0 +1,134 @@
+[
+  {
+    "id": "card-1",
+    "language": "spanish",
+    "front": "Hola",
+    "back": "Hello",
+    "category": "greetings",
+    "difficulty": 0,
+    "nextReview": "2024-01-20T10:00:00.000Z",
+    "interval": 1,
+    "easeFactor": 2.5
+  },
+  {
+    "id": "card-2",
+    "language": "spanish",
+    "front": "Gracias",
+    "back": "Thank you",
+    "category": "basic",
+    "difficulty": 0,
+    "nextReview": "2024-01-20T10:00:00.000Z",
+    "interval": 2,
+    "easeFactor": 2.6
+  },
+  {
+    "id": "card-3",
+    "language": "spanish",
+    "front": "¿Cómo estás?",
+    "back": "How are you?",
+    "category": "greetings",
+    "difficulty": 1,
+    "nextReview": "2024-01-21T10:00:00.000Z",
+    "interval": 3,
+    "easeFactor": 2.4
+  },
+  {
+    "id": "card-4",
+    "language": "spanish",
+    "front": "Por favor",
+    "back": "Please",
+    "category": "basic",
+    "difficulty": 0,
+    "nextReview": "2024-01-20T10:00:00.000Z",
+    "interval": 1,
+    "easeFactor": 2.5
+  },
+  {
+    "id": "card-5",
+    "language": "spanish",
+    "front": "Adiós",
+    "back": "Goodbye",
+    "category": "greetings",
+    "difficulty": 0,
+    "nextReview": "2024-01-20T10:00:00.000Z",
+    "interval": 4,
+    "easeFactor": 2.7
+  },
+  {
+    "id": "card-6",
+    "language": "french",
+    "front": "Bonjour",
+    "back": "Hello/Good morning",
+    "category": "greetings",
+    "difficulty": 0,
+    "nextReview": "2024-01-20T10:00:00.000Z",
+    "interval": 1,
+    "easeFactor": 2.5
+  },
+  {
+    "id": "card-7",
+    "language": "french",
+    "front": "Merci",
+    "back": "Thank you",
+    "category": "basic",
+    "difficulty": 0,
+    "nextReview": "2024-01-20T10:00:00.000Z",
+    "interval": 2,
+    "easeFactor": 2.6
+  },
+  {
+    "id": "card-8",
+    "language": "french",
+    "front": "Comment allez-vous?",
+    "back": "How are you? (formal)",
+    "category": "greetings", 
+    "difficulty": 1,
+    "nextReview": "2024-01-21T10:00:00.000Z",
+    "interval": 3,
+    "easeFactor": 2.4
+  },
+  {
+    "id": "card-9",
+    "language": "german",
+    "front": "Hallo",
+    "back": "Hello",
+    "category": "greetings",
+    "difficulty": 0,
+    "nextReview": "2024-01-20T10:00:00.000Z",
+    "interval": 1,
+    "easeFactor": 2.5
+  },
+  {
+    "id": "card-10",
+    "language": "german",
+    "front": "Danke",
+    "back": "Thank you",
+    "category": "basic",
+    "difficulty": 0,
+    "nextReview": "2024-01-20T10:00:00.000Z",
+    "interval": 2,
+    "easeFactor": 2.6
+  },
+  {
+    "id": "card-11",
+    "language": "german",
+    "front": "Wie geht es dir?",
+    "back": "How are you? (informal)",
+    "category": "greetings",
+    "difficulty": 1,
+    "nextReview": "2024-01-21T10:00:00.000Z",
+    "interval": 3,
+    "easeFactor": 2.4
+  },
+  {
+    "id": "card-12",
+    "language": "spanish",
+    "front": "Buenos días",
+    "back": "Good morning",
+    "category": "greetings",
+    "difficulty": 0,
+    "nextReview": "2024-01-20T10:00:00.000Z",
+    "interval": 5,
+    "easeFactor": 2.8
+  }
+]

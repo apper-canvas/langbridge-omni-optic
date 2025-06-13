@@ -1,0 +1,42 @@
+[
+  {
+    "id": "session-1",
+    "userId": "user-1",
+    "startTime": "2024-01-19T09:00:00.000Z",
+    "endTime": "2024-01-19T09:25:00.000Z",
+    "cardsStudied": 15,
+    "accuracy": 87
+  },
+  {
+    "id": "session-2",
+    "userId": "user-1",
+    "startTime": "2024-01-18T14:30:00.000Z",
+    "endTime": "2024-01-18T14:50:00.000Z",
+    "cardsStudied": 12,
+    "accuracy": 92
+  },
+  {
+    "id": "session-3",
+    "userId": "user-1",
+    "startTime": "2024-01-17T10:15:00.000Z",
+    "endTime": "2024-01-17T10:35:00.000Z",
+    "cardsStudied": 18,
+    "accuracy": 83
+  },
+  {
+    "id": "session-4",
+    "userId": "user-1",
+    "startTime": "2024-01-16T16:00:00.000Z",
+    "endTime": "2024-01-16T16:30:00.000Z",
+    "cardsStudied": 22,
+    "accuracy": 78
+  },
+  {
+    "id": "session-5",
+    "userId": "user-1",
+    "startTime": "2024-01-15T11:45:00.000Z",
+    "endTime": "2024-01-15T12:10:00.000Z",
+    "cardsStudied": 20,
+    "accuracy": 95
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "speaking-1",
+    "language": "spanish",
+    "prompt": "Introduce yourself in Spanish. Include your name, where you're from, and one hobby you enjoy.",
+    "difficulty": "beginner",
+    "audioUrl": null
+  },
+  {
+    "id": "speaking-2",
+    "language": "spanish",
+    "prompt": "Describe your typical morning routine using present tense verbs.",
+    "difficulty": "beginner",
+    "audioUrl": null
+  },
+  {
+    "id": "speaking-3",
+    "language": "spanish",
+    "prompt": "Talk about your favorite food and explain why you like it.",
+    "difficulty": "intermediate",
+    "audioUrl": null
+  },
+  {
+    "id": "speaking-4",
+    "language": "spanish",
+    "prompt": "Describe the weather today and your plans for the weekend.",
+    "difficulty": "beginner",
+    "audioUrl": null
+  },
+  {
+    "id": "speaking-5",
+    "language": "french",
+    "prompt": "Présentez-vous en français. Incluez votre nom, d'où vous venez et un passe-temps que vous aimez.",
+    "difficulty": "beginner",
+    "audioUrl": null
+  },
+  {
+    "id": "speaking-6",
+    "language": "french",
+    "prompt": "Décrivez votre routine matinale typique en utilisant le présent.",
+    "difficulty": "beginner",
+    "audioUrl": null
+  },
+  {
+    "id": "speaking-7",
+    "language": "french",
+    "prompt": "Parlez de votre plat préféré et expliquez pourquoi vous l'aimez.",
+    "difficulty": "intermediate",
+    "audioUrl": null
+  },
+  {
+    "id": "speaking-8",
+    "language": "german",
+    "front": "Stellen Sie sich auf Deutsch vor. Nennen Sie Ihren Namen, woher Sie kommen und ein Hobby.",
+    "difficulty": "beginner",
+    "audioUrl": null
+  },
+  {
+    "id": "speaking-9",
+    "language": "german",
+    "prompt": "Beschreiben Sie Ihre typische Morgenroutine im Präsens.",
+    "difficulty": "beginner",
+    "audioUrl": null
+  },
+  {
+    "id": "speaking-10",
+    "language": "german",
+    "prompt": "Sprechen Sie über Ihr Lieblingsessen und erklären Sie, warum Sie es mögen.",
+    "difficulty": "intermediate",
+    "audioUrl": null
+  }
+]
