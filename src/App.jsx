@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate, useNavigate } from 'react-route
 import { ToastContainer } from 'react-toastify';
 import { useDispatch, useSelector } from 'react-redux';
 import { setUser, clearUser } from './store/userSlice';
-import Layout from '@/Layout';
+import Layout from './Layout';
 import { routes, routeArray } from '@/config/routes';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
@@ -91,9 +91,12 @@ function AppContent() {
       },
       onError: function(error) {
         console.error("Authentication failed:", error);
-      }
+}
     });
-  }, []);
+    
+    // Added navigate and dispatch to dependencies as they are used within the effect
+    // This ensures authentication callbacks always have current function references
+  }, [navigate, dispatch]);
   
   // Authentication methods to share via context
   const authMethods = {
