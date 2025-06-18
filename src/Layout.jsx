@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import { Outlet, NavLink, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import ApperIcon from '@/components/ApperIcon'
 import { routeArray } from '@/config/routes'
 import { userService } from '@/services'
-
+import { AuthContext } from './App'
 const Layout = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const location = useLocation()
@@ -50,7 +50,7 @@ const Layout = () => {
             ))}
           </nav>
 
-          {/* Header Actions */}
+{/* Header Actions */}
           <div className="flex items-center space-x-4 min-w-0">
             {/* Language Selector */}
             <select className="px-3 py-1.5 text-sm border border-surface-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
@@ -73,6 +73,20 @@ const Layout = () => {
                 {userData?.streak || 0} day streak
               </span>
             </div>
+
+            {/* Logout Button */}
+            <button
+              onClick={() => {
+                if (window.confirm('Are you sure you want to logout?')) {
+                  const { logout } = useContext(AuthContext) || {};
+                  logout?.();
+                }
+              }}
+              className="flex items-center px-3 py-1.5 text-sm text-surface-600 hover:text-surface-900 hover:bg-surface-100 rounded-lg transition-colors"
+            >
+              <ApperIcon name="LogOut" className="w-4 h-4 mr-2" />
+              Logout
+            </button>
 
             {/* Mobile Menu Button */}
             <button
